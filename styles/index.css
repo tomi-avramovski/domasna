@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*    box-sizing: border-box;*/
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 146px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.cleaner {}
+
+.container {
+    clear: both;
+}
+
+
+.top-header {
+    width: 60%;
+    margin: 0 auto;
+
+    /*    background-color: rgb(0, 0, 0);*/
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 26px;
+
+}
+
+.top-left {
+
+    display: inline-block;
+}
+
+.top-left .levo {
+    margin: 5px;
+    list-style: none;
+    height: 26px;
+    display: block;
+    margin-top: 10px;
+
+
+}
+
+.top-left li {
+
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 0.2;
+    position: relative;
+    border-right: 1px solid gray;
+
+}
+
+.top-right {
+    margin-top: 10px;
+    margin-right: 115px;
+    height: 20px;
+    padding: 0;
+    float: right;
+
+}
+
+.bot-header {
+    padding: 5px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 100px;
+
+
+}
+
+.bot-header .logo {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+}
+
+.bot-header .search {
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 20%;
+
+
+
+
+}
+
+.search input {
+    width: 250px;
+    height: 31px;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(199, 1, 14);
+    box-sizing: border-box;
+    display: block;
+    font-family: sans-serif;
+    height: 41px;
+    line-height: 21.4333px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.navbar {
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    height: 31px;
+    line-height: 21.4333px;
+    list-style-type: none;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+
+
+
+}
+
+.navbar li {
+    margin: 0px 0px 0px 70px;
+    position: relative;
+    float: left;
+    padding: 5px 0px 5px 0px;
+    position: relative;
+    left: 20%;
+    color: white;
+
+
+}
+
+section {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+}
+
+.delivery {
+    width: 100%;
+    height: 40px;
+
+}
+
+.delivery li {
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+    left: 22%;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    float: left;
+}
+
+section .first {
+    width: 333.3;
+    height: 30px;
+}
+
+section .second {
+    width: 333.3;
+    height: 30px;
+}
+
+section .third {
+    height: 30px;
+    width: 300;
+}
+
+.slider {}
+
+.slider img {
+    position: absolute;
+    display: block;
+}
+
+.slider button {
+    position: relative;
+    background-color: rgb(199, 1, 14);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 1px;
+    border-top-width: 1px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    min-width: 180px;
+    overflow: hidden;
+    padding: 10 10 10 10;
+    top: 300px;
+    left: 46%;
+
+}
+
+.container-shop {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    top: 357px;
+    width: 100%;
+}
+
+.shop {
+    width: 30%;
+    position: relative;
+    margin-left: 39%;
+    float: left;
+    border-bottom-color: rgb(204, 204, 206);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+
+    /*    text-align: center;*/
+}
+
+
+.shop li {
+    float: left;
+    position: relative;
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+.shop .shop1 {
+    background-color: rgb(199, 1, 14);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    margin-right: 2px;
+    min-width: 130px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.shop .shop2 {
+    background-color: rgb(233, 233, 235);
+    box-sizing: border-box;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    margin-right: 2px;
+    min-width: 130px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.shop .shop3 {
+    background-color: rgb(233, 233, 235);
+    box-sizing: border-box;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    margin-right: 0px;
+    min-width: 130px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.kits {
+    position: relative;
+    top: 357px;
+    display: inline-block;
+    left: 26.5%
+}
+
+.find img {
+    position: relative;
+    top: 356px;
+    left: 27%;
+}
+
+.pogba img {
+    position: relative;
+    top: 356px;
+    left: 27%
+}
+
+.blind img {
+    position: relative;
+    left: 53.33%;
+    bottom: 18px;
+}
+
+.shop-player {
+    position: relative;
+    bottom: 18px;
+    left: 27%;
+    display: block;
+    box-sizing: border-box;
+}
+
+footer {
+    bottom: 18px;
+    position: relative;
+    width: 100%;
+    height: 413.4px;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+footer .site-info {
+    width: 100%;
+    ;
+    height: 134.25;
+    background-color: white;
+}
